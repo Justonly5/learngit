@@ -1,0 +1,4 @@
+1. 初始化Git 仓库: git init (在对应目录下执行)
+2. 添加文件到Git 仓库:
+	① Add 文件: git add <FileName>    	可以反复添加
+	②Commit: git commit -m "message"	提交,
