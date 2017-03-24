@@ -13,3 +13,13 @@
 	
 	git reset --hard commit_id:
 	上一个版本就是HEAD^，上上一个版本就是HEAD^^,当然往上100个版本head~100
+	
+6.  工作区:自己的文件目录
+	版本库: .git目录
+		暂存区(stage): git add
+		分支: git commit-->把暂存区提交到当前分支	
+	
+	
+	工作区修改了文件,要放弃修改:  git  checkout -- file
+	工作区修改了,且add 到暂存区:  git reset head file --> (撤销Add)回到了工作区 --> git  checkout -- file -->撤销工作区的修改
+	工作区修改了,且add 并 commit到版本库(未提交到远程仓库): git reset --hard commit_id
