@@ -6,3 +6,10 @@
 3. 查看工作区(仓库)状态: git status 
 
 4. 查看修改内容:git diff
+
+5. Git 时光机:
+	1) git log (--pretty=oneline) : 查看Git commit 记录,以便确认要回到过去的哪个版本
+	2) git reflog 查看命令记录,以便确定要回到未来的哪个版本
+	
+	git reset --hard commit_id:
+	上一个版本就是HEAD^，上上一个版本就是HEAD^^,当然往上100个版本head~100
