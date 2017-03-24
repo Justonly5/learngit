@@ -1,27 +1,33 @@
-1. ³õÊ¼»¯Git ²Ö¿â: git init (ÔÚ¶ÔÓ¦Ä¿Â¼ÏÂÖ´ĞĞ)
-2. Ìí¼ÓÎÄ¼şµ½Git ²Ö¿â:
-	¢Ù Add ÎÄ¼ş: git add <FileName>    	¿ÉÒÔ·´¸´Ìí¼Ó
-	¢ÚCommit: git commit -m "message"	Ìá½»,
+1. åˆå§‹åŒ–Git ä»“åº“: git init (åœ¨å¯¹åº”ç›®å½•ä¸‹æ‰§è¡Œ)
+2. æ·»åŠ æ–‡ä»¶åˆ°Git ä»“åº“:
+	â‘  Add æ–‡ä»¶: git add <FileName>    	å¯ä»¥åå¤æ·»åŠ 
+	â‘¡Commit: git commit -m "message"	æäº¤,
 	
-3. ²é¿´¹¤×÷Çø(²Ö¿â)×´Ì¬: git status 
+3. æŸ¥çœ‹å·¥ä½œåŒº(ä»“åº“)çŠ¶æ€: git status 
 
-4. ²é¿´ĞŞ¸ÄÄÚÈİ:git diff
+4. æŸ¥çœ‹ä¿®æ”¹å†…å®¹:git diff
 
-5. Git Ê±¹â»ú:
-	1) git log (--pretty=oneline) : ²é¿´Git commit ¼ÇÂ¼,ÒÔ±ãÈ·ÈÏÒª»Øµ½¹ıÈ¥µÄÄÄ¸ö°æ±¾
-	2) git reflog ²é¿´ÃüÁî¼ÇÂ¼,ÒÔ±ãÈ·¶¨Òª»Øµ½Î´À´µÄÄÄ¸ö°æ±¾
+5. Git æ—¶å…‰æœº:
+	1) git log (--pretty=oneline) : æŸ¥çœ‹Git commit è®°å½•,ä»¥ä¾¿ç¡®è®¤è¦å›åˆ°è¿‡å»çš„å“ªä¸ªç‰ˆæœ¬
+	2) git reflog æŸ¥çœ‹å‘½ä»¤è®°å½•,ä»¥ä¾¿ç¡®å®šè¦å›åˆ°æœªæ¥çš„å“ªä¸ªç‰ˆæœ¬
 	
 	git reset --hard commit_id:
-	ÉÏÒ»¸ö°æ±¾¾ÍÊÇHEAD^£¬ÉÏÉÏÒ»¸ö°æ±¾¾ÍÊÇHEAD^^,µ±È»ÍùÉÏ100¸ö°æ±¾head~100
+	ä¸Šä¸€ä¸ªç‰ˆæœ¬å°±æ˜¯HEAD^ï¼Œä¸Šä¸Šä¸€ä¸ªç‰ˆæœ¬å°±æ˜¯HEAD^^,å½“ç„¶å¾€ä¸Š100ä¸ªç‰ˆæœ¬head~100
 	
-6.  ¹¤×÷Çø:×Ô¼ºµÄÎÄ¼şÄ¿Â¼
-	°æ±¾¿â: .gitÄ¿Â¼
-		Ôİ´æÇø(stage): git add
-		·ÖÖ§: git commit-->°ÑÔİ´æÇøÌá½»µ½µ±Ç°·ÖÖ§	
+6.  å·¥ä½œåŒº:è‡ªå·±çš„æ–‡ä»¶ç›®å½•
+	ç‰ˆæœ¬åº“: .gitç›®å½•
+		æš‚å­˜åŒº(stage): git add
+		åˆ†æ”¯: git commit-->æŠŠæš‚å­˜åŒºæäº¤åˆ°å½“å‰åˆ†æ”¯	
 	
 	
-	¹¤×÷ÇøĞŞ¸ÄÁËÎÄ¼ş,Òª·ÅÆúĞŞ¸Ä:  git  checkout -- file
-	¹¤×÷ÇøĞŞ¸ÄÁË,ÇÒadd µ½Ôİ´æÇø:  git reset head file --> (³·ÏúAdd)»Øµ½ÁË¹¤×÷Çø --> git  checkout -- file -->³·Ïú¹¤×÷ÇøµÄĞŞ¸Ä
-	¹¤×÷ÇøĞŞ¸ÄÁË,ÇÒadd ²¢ commitµ½°æ±¾¿â(Î´Ìá½»µ½Ô¶³Ì²Ö¿â): git reset --hard commit_id
+	å·¥ä½œåŒºä¿®æ”¹äº†æ–‡ä»¶,è¦æ”¾å¼ƒä¿®æ”¹:  git  checkout -- file
+	å·¥ä½œåŒºä¿®æ”¹äº†,ä¸”add åˆ°æš‚å­˜åŒº:  git reset head file --> (æ’¤é”€Add)å›åˆ°äº†å·¥ä½œåŒº --> git  checkout -- file -->æ’¤é”€å·¥ä½œåŒºçš„ä¿®æ”¹
+	å·¥ä½œåŒºä¿®æ”¹äº†,ä¸”add å¹¶ commitåˆ°ç‰ˆæœ¬åº“(æœªæäº¤åˆ°è¿œç¨‹ä»“åº“): git reset --hard commit_id
 	
-7. É¾³ıÎÄ¼ş	
+7. åˆ é™¤æ–‡ä»¶	
+	git rm
+
+8. è¿œç¨‹ä»“åº“:
+	1) å…¬é’¥,å¯†é’¥:$ ssh-keygen -t rsa -C "youremail@example.com" ä¼šåœ¨ç”¨æˆ·ä¸»ç›®å½•ä¸‹ç”Ÿæˆ.sshç›®å½•	
+	2) å…³è”è¿œç¨‹ä»“åº“:git remote add origin git@server-name:path/repo-name.git
+	3) æ¨é€è‡³è¿œç¨‹ä»“åº“:git push -u origin master  git push origin master
