@@ -1,11 +1,11 @@
 1. 初始化Git 仓库: git init (在对应目录下执行)
 2. 添加文件到Git 仓库:
 	① Add 文件: git add <FileName>    	可以反复添加
-<<<<<<< HEAD
+
 	② Commit: git commit -m "message"	提交,
-=======
+
 	②Commit: git commit -m "message"	提交,
->>>>>>> 994c19bf41baeae81e2644c40973439c7f52db52
+
 	
 3. 查看工作区(仓库)状态: git status 
 
@@ -35,9 +35,8 @@
 	1) 公钥,密钥:$ ssh-keygen -t rsa -C "youremail@example.com" 会在用户主目录下生成.ssh目录	
 	2) 关联远程仓库:git remote add origin git@server-name:path/repo-name.git
 	3) 推送至远程仓库:git push -u origin master  git push origin master
-<<<<<<< HEAD
+
 	
 9. 克隆仓库:
 	git clone git@github.com/Justonly5/learngit
-=======
->>>>>>> 994c19bf41baeae81e2644c40973439c7f52db52
+
