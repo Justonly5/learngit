@@ -23,3 +23,5 @@
 	工作区修改了文件,要放弃修改:  git  checkout -- file
 	工作区修改了,且add 到暂存区:  git reset head file --> (撤销Add)回到了工作区 --> git  checkout -- file -->撤销工作区的修改
 	工作区修改了,且add 并 commit到版本库(未提交到远程仓库): git reset --hard commit_id
+	
+7. 删除文件	
